@@ -6,4 +6,5 @@ class UserProfileAdmin(admin.ModelAdmin):
 
 
 
-admin.site.register(models.UserProfile, UserProfileAdmin),
+admin.site.register(models.UserProfile, UserProfileAdmin)
+admin.site.register(models.ProfileFeedItem)
